@@ -89,3 +89,43 @@ button.roll-dice {
     white-space: nowrap;
     border: 0;
 }
+
+.timer {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0B2434;
+    margin: -5px 0 5px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+button.reset-button {
+    height: 50px;
+    padding: 6px 18px;
+    border: 2px solid #5035FF;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #5035FF;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+button.reset-button:hover {
+    background-color: #5035FF;
+    color: white;
+}
+
+button.roll-dice:hover {
+    background-color: #3f29d9;
+}
+
+.inducedPanic{
+    font-size: 2.5rem;
+    text-decoration: bold;
+    color: red;
+}
